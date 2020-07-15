@@ -1,9 +1,9 @@
 package com.qf.service;
 
-import com.qf.pojo.SysUser;
+import com.qf.pojo.TbUser;
 
 import java.util.List;
 
 public interface UserService {
-    List<SysUser> getAll();
+    List<TbUser> getAll();
 }
